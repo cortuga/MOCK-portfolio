@@ -11,3 +11,8 @@ body {
   min-height: 100%;
   background-color: slategrey;
 }
+
+img .profile-image.resize {
+  width: 25%;
+  height: auto;
+}
