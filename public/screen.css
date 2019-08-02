@@ -7,16 +7,14 @@ html {
 }
 
 body {
-  margin-left: 10%;
-  margin-right: 10%;
-  min-width: 768px;
-  /* background-color: rgb(197, 197, 197); */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5rem;
+  /* min-width: 768px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* align-content: space-between; */
   flex-wrap: wrap;
-  /* max-width: 10%; */
   background-image: url(/assets/space.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,10 +29,10 @@ body header {
   display: flex;
   justify-content: center;
   height: 30%;
-  /* margin: 10%; */
   margin-top: 0%;
   margin-bottom: 0%;
 }
+
 .profile-image {
   border-radius: 64px;
   width: 25%;
@@ -46,16 +44,24 @@ body header {
 
 .text-bubble {
   background-color: whitesmoke;
-  border-radius: 20%;
+  border-radius: 2rem;
   opacity: 0.8;
-  height: 40%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+}
+
+.jr-quote {
+  display: flex;
+  justify-content: center;
+  /* height: 55px; */
 }
 
 .blockquote-section {
   display: flex;
   justify-content: center;
-  align-content: center;
-  /* margin-left: 5rem; */
+  align-content: center;zxx
 }
 
 blockquote {
@@ -65,19 +71,48 @@ blockquote {
 }
 
 .nav-section {
-  background-color: lightblue;
-  display: flex;
-  flex-direction: row;
-  flex-flow: row;
-  justify-content: space-evenly;
+  /* background-color: lightblue; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-flow: row; */
+  /* justify-content: space-around; */
+}
+
+.nav-container {
+
 }
 
 .nav-ul {
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   display: flex;
-  flex-direction: row;
   /* justify-content: space-evenly; */
-  list-style: none;
+  /* list-style: none; */
+  /* border-radius: 5rem; */
+}
+.nav-pics {
+  /* border-radius: 50; */
+  padding: 1rem;
+}
+
+section nav ul li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hello-section {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+/* .grey-header {
+  background-image: url(./assets/react.png);
+  height: 20px;
+  max-width: 222px;
+} */
+
+.fizzbuzz-section {
+  background-color: whitesmoke;
+  border-radius: 5px;
 }
 
 aside h3 {
@@ -86,10 +121,8 @@ aside h3 {
 }
 
 aside ul {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   list-style: none;
-  /* max-width: 10%; */
-  /* border-radius: 50%; */
   display: flex;
   flex-direction: row;
   margin-left: 20%;
@@ -106,6 +139,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* position: relative; */
   margin-bottom: 0%;
 }
+
+/* *{border: dotted pink} */
